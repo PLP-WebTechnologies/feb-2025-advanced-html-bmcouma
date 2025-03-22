@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced HTML5 Elements</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Optional CSS -->
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Welcome to Advanced HTML5</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+      <h2>Ordered List (Roman Numerals)</h2>
+      <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+      </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+      <h2>External Image</h2>
+      <img
+        src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg"
+        alt="Beautiful Scenery"
+        width="500"
+      />
+    </section>
+
+    <!-- Table of 5 Contacts -->
+    <section>
+      <h2>Contact List</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>New York, USA</td>
+          <td>+1 123 456 7890</td>
+          <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>London, UK</td>
+          <td>+44 789 456 1230</td>
+          <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+          <td>Ali Khan</td>
+          <td>Dubai, UAE</td>
+          <td>+971 55 987 6543</td>
+          <td>alikhan@example.com</td>
+        </tr>
+        <tr>
+          <td>Maria Gonzalez</td>
+          <td>Madrid, Spain</td>
+          <td>+34 678 901 234</td>
+          <td>mariagonzalez@example.com</td>
+        </tr>
+        <tr>
+          <td>Wang Wei</td>
+          <td>Beijing, China</td>
+          <td>+86 123 4567 890</td>
+          <td>wangwei@example.com</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          required
+        />
+        <br /><br />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+        <br /><br />
+
+        <label for="gender">Gender:</label><br />
+        <input type="radio" id="male" name="gender" value="Male" /> Male
+        <input type="radio" id="female" name="gender" value="Female" /> Female
+        <br /><br />
+
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="uae">UAE</option>
+          <option value="spain">Spain</option>
+          <option value="china">China</option>
+        </select>
+        <br /><br />
+
+        <label>Hobbies:</label><br />
+        <input type="checkbox" name="hobbies" value="Reading" /> Reading
+        <input type="checkbox" name="hobbies" value="Traveling" /> Traveling
+        <input type="checkbox" name="hobbies" value="Gaming" /> Gaming
+        <br /><br />
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Contact us at: support@example.com</p>
+    </footer>
+  </body>
+</html>
